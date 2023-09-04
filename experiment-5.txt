@@ -1,0 +1,185 @@
+Grocery.html
+
+<html>
+<head>
+<link rel="stylesheets" type="text" href="style.css">
+</head>
+<body>
+<table>
+<tr>
+<th><img src="det.jpeg"></th>
+<th><img src="sant.jpeg"></th>
+<th><img src="egg.jpeg"></th>
+</tr>
+<tr>
+<td>dettol<br>20</td>
+<td>santoor<br>40</td>
+<td>eggs<br>80</td>
+</tr>
+<tr>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+</tr>
+</table>
+</body>
+</html>
+
+fashion.html
+
+
+<html>
+<head>
+<link rel="stylesheets" type="text" href="style.css">
+</head>
+<body>
+<table>
+<tr>
+<th><img src="bel.jpeg"></th>
+<th><img src="jk.jpeg"></th>
+<th><img src="cp.jpeg"></th>
+</tr>
+<tr>
+<td>belt<br>20</td>
+<td>jacket<br>40</td>
+<td>cap<br>80</td>
+</tr>
+<tr>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+</tr>
+</table>
+</body>
+</html>
+
+
+elec.html
+
+
+<html>
+<head>
+<link rel="stylesheets" type="text" href="style.css">
+</head>
+<body>
+<table>
+<tr>
+<th><img src="phone.jpeg"></th>
+<th><img src="web.jpeg"></th>
+<th><img src="rt.jpeg"></th>
+</tr>
+<tr>
+<td>phone<br>20000</td>
+<td>webcam<br>4000</td>
+<td>router<br>800</td>
+</tr>
+<tr>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+</tr>
+</table>
+</body>
+</html>
+
+
+main.html
+
+
+<html>
+<body style="background-color:#6aff9d">
+<I><h1 align="center">All In One Store</h1></I>
+</body>
+</html>
+
+
+list.html
+
+
+<html>
+<head>
+<style>
+body{
+background:#6affad
+}
+h1{
+color:#3894b
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a href="grocery.html" target="3">grocery</a></li>
+<li><a href="fashion.html" target="3">fashion</a></li>
+<li><a href="elec.html" target="3">electrics</a></li>
+</ul>
+</body>
+</html>
+
+
+bhaa.html
+
+
+<html>
+<frameset rows="25%,70%,5%">
+<frame src="main.html" name="1">
+
+<frameset cols="25%,75%">
+<frame src="list.html" name="2">
+<frame src="" name="3">
+</frameset>
+<frame src="footer3.html" name="4">
+</frameset>
+</html>
+
+
+style.css
+
+img{
+   background:6affad;
+   bottom:60px;
+   left:20px;
+   right:20px;
+   padding:50px;
+}
+table,tr,th{
+   align:"center"
+}
+button{
+   display:inline-block;
+   padding:30px40px;
+}
+
+
+footer3.html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.footer{
+  position:fixed;
+  cellpadding:10px10px5px10px;
+  bottom:0;
+  width:100%;
+  height:"50px";
+  background:#7be0b5;
+}
+</style>
+</head>
+<body>
+<div class ='footer'>
+<p align="center">&copy;k.venkatesh</p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
